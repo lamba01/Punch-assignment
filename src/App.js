@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Union from './assets/icons/Union';
 import FindTalent from './components/FindTalent';
 import Articles from './components/Articles';
+import TrustSection from './components/TrustSection';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Union />
       <FindTalent />
       <Articles />
+      <TrustSection />
     </div>
   );
 }
