@@ -3,6 +3,7 @@ import './App.css';
 import Hero from './components/Hero';
 import Union from './assets/icons/Union';
 import FindTalent from './components/FindTalent';
+import Articles from './components/Articles';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Union />
       <FindTalent />
+      <Articles />
     </div>
   );
 }

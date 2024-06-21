@@ -1,0 +1,54 @@
+main {
+    display: flex;
+    background-color: #202229;
+    color: white;
+    padding: 0 70px;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
+    margin-top: -50px;
+    position: relative;
+    min-height: 100vh;
+    gap: 150px;
+}
+.quote {
+    position: absolute;
+    right: 67px;
+    top: 2px;
+}
+.sub-containers {
+    width: 40%;
+}
+.sub-container2 {
+    width: 40%;
+    margin-top: 100px;
+}
+.article-header {
+    font-size: 54px;
+    font-weight: 700;
+}
+.jason {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+.groove-container {
+    background-color: #AF7CFF;
+    width: 98px;
+    height: 98px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.profile div p {
+    color: #C6C4C4;
+}
+.sub-containers p {
+    margin-top: 20px;
+}
