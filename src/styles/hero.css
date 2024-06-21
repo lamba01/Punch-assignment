@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+  .hero {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .main-hero-container {
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+   }
+
+  .hero-paragraph {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 28px;
+  }
+
+  .hero-header-text {
+    color: #202229;
+    font-size: 54px;
+    text-align: center;
+  }
+
+  .hero-input {
+    font-weight: 600;
+    font-size: 16px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:  15px;
+    padding: 15px;
+    width: 50%;
+    border: 1px solid #F0F0F0;
+    outline: none;
+  }
+
+  .hero-input:focus {
+    border: 1px solid #FFBE2E;
+  }
+
+  .submit-btn{
+    background-color: #FFBE2E;
+    padding: 15px;
+    border: 1px solid #F0F0F0;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: -15px;
+    margin-bottom: 30px;
+  }
+
+  .hero-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #F8F8F8;
+  }
+  
+  .hero-header {
+    display: flex;
+    justify-content: center;
+    gap: 0px; 
+    margin-bottom: 20px;
+    background-color: #D2D2D2;
+    width: fit-content;
+    border-radius: 15px;
+    margin: 0 auto;
+  }
+  
+  .hero-header h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #202229;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: 500;
+  }
+  
+  .hero-header h3.active-header {
+    background-color: #C7F4C2;
+    font-weight: 600;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(3, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+    color: #959595;
+  }
+
+  .grid-item {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: color 0.3s;
+  }
+  
+  .grid-item:hover,
+  .grid-item.active-grid-item {
+    color: #202229;
+  }
+  
+  /* Responsive Styles */
+  @media (min-width: 1024px) {
+    .grid-container {
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 10px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .hero-header h1 {
+      font-size: 20px;
+    }
+  
+    .grid-item {
+      font-size: 14px;
+    }
+  }
+  
