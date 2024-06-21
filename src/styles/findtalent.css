@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.find-talent-container {
+    background-color: #EDEFFF;
+    min-height: 100vh;
+    padding: 210px 70px;
+    margin-top: -50px;
+    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%); 
+}
+.talent-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.ft-header {
+    color: #202229;
+    font-size: 54px;
+    text-align: center;
+    width: 90%;
+    line-height: 64px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+.it-container, .design-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.extra {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15.625rem;
+}
+.it-icons {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 18px 26px;
+    border-radius: 7px;
+}
+.it-icons h6 {
+    font-size: 16px;
+    font-weight: 500;
+}
+.icon-board {
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    gap: 20px; 
+    text-align: center;
+    margin-top: 15px;
+  }
+.icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.icon-container {
+    background-color: #F6F6F6;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-text {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    width: 96px;
+}
+.it-subtexts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* gap: ; */
+}
+.it-subtexts p {
+    flex: 1 1 calc(50% - 20px); 
+    box-sizing: border-box; 
+    margin-bottom: 20px; 
+    color: rgba(32, 34, 41, 0.8);
+    display: flex;
+    align-items: center;
+
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+.text {
+    font-size: 24px;
+    font-weight: 500;
+}
+.explore-container {
+    display: flex;
+    align-items: center;
+}
+.explore {
+    background-color: #202229;
+    padding: 15px;
+    border: 1px solid #F0F0F0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.explore span {
+    font-size: 22px;
+    color: rgba(32, 34, 41, 1);
+}
