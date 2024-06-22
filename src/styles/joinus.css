@@ -1,0 +1,60 @@
+.joinus-main {
+    background: none;
+    padding: 10px 70px;
+    /* text-align: center; */
+}
+.joinus-main  h2{
+    margin: 0 auto;
+    font-size: 54px;
+    color: #202229;
+    padding: 40px 0px;
+    text-align: center;
+}
+.join-btn {
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+}
+.one, .two, .three {
+    background-color: #EDEFFF;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
+}
+.two {
+    background-color: #FFF7E1;
+}
+.three {
+    background-color: #F3F3F3;
+}
+.one-icon, .two-icon, .three-icon {
+    margin-top: -60px;
+    padding-right: 10px;
+}
+.one-header, .two-header, .three-header {
+    font-size: 34px;
+    font-weight: 600;
+}
+.one-paragraph, .two-paragraph, .three-paragraph {
+    margin: 20px 0;
+}
+.developers, .content, .build {
+    width: 400px; 
+    height: 600px; 
+    position: absolute;
+    top: 60%; 
+    right: -150px;
+    transform: translate(-50%, -50%);
+}
+.content {
+    top: 80%;
+}
+.build {
+    top: 50%;
+}
