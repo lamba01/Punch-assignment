@@ -1,0 +1,45 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 70px;
+    background-color: #f9f9f9;
+    background: linear-gradient(to bottom, #ffffff, #EDEFFF);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    clip-path: polygon(0 0%, 100% 0, 100% 95%, 0 100%);
+    box-sizing: border-box;
+    margin-bottom: -35px;
+  }
+  
+  .carousel-text {
+    flex: 1;
+    margin-right: 20px;
+    width: 30%;
+  }
+  
+  .car {
+    width: 100%;
+    height: 100%;
+  }
+  .carousel-text h1 {
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-text p {
+    font-size: 22px;
+  }
+  
+  .carousel-slider {
+    flex: 1;
+    width: 70%; 
+    height: 100%;
+  }
+  
+  .carousel-item {
+    height: 100%; 
+  }
+  

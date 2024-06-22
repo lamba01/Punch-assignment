@@ -1,0 +1,16 @@
+.faq-container {
+    background-color: #F3F3F3;
+    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
+    padding-bottom: 150px;
+}
+.questions {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #D6D6D6;
+    border-bottom: 1px solid #D6D6D6;
+}
+.faq-container h1 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0px;
+}
