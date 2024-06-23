@@ -87,7 +87,7 @@
   
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(3, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     margin-top: 20px;
     color: #959595;
@@ -108,11 +108,11 @@
   }
   
   /* Responsive Styles */
-  @media (min-width: 1024px) {
-    .grid-container {
-      grid-template-columns: repeat(3, 1fr);
-      column-gap: 10px;
-    }
+  @media only screen and (max-width: 1024px) and (min-height: 800px) {
+    .main-hero-container {
+      width: 90%;
+     }
+  
   }
   
   @media (max-width: 767px) {

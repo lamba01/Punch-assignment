@@ -50,5 +50,34 @@ main {
     color: #C6C4C4;
 }
 .sub-containers p {
-    margin-top: 20px;
+    margin: 15px 0;
+}
+.arrow-container {
+    background-color: #FFFFFF;
+    padding: 15px;
+    border: 1px solid #F0F0F0;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: -15px;
+    margin-bottom: 30px;
+}
+.buttons {
+    display: flex;
+    gap: 30px;
+}
+.rotated-img {
+    transform: rotate(180deg); 
+}
+
+@media only screen and (max-width: 1024px) and (min-height: 800px)  {
+    main {
+        flex-direction: column;
+        gap: 50px;
+        min-height: 80vh;
+        padding: 0 40px;
+    }
+    .sub-container2, .sub-containers {
+        width: 100%;
+        margin-top: 0;
+    }
 }

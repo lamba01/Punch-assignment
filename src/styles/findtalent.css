@@ -8,11 +8,14 @@
     padding: 210px 70px;
     margin-top: -50px;
     clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%); 
+    width: 100%;
+    box-sizing: border-box;
 }
 .talent-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 100%;
 }
 .ft-header {
     color: #202229;
@@ -27,7 +30,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
 }
 .extra {
     display: flex;
@@ -47,6 +50,7 @@
 .icon-board {
     display: flex;
     justify-content: center;
+    flex-direction: row;
     /* flex-wrap: wrap; */
     gap: 20px; 
     text-align: center;
@@ -59,8 +63,8 @@
   }
 .icon-container {
     background-color: #F6F6F6;
-    width: 96px;
-    height: 96px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -77,20 +81,22 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    gap: 5px;
+    align-items: center;
 }
 .it-subtexts p {
-    flex: 1 1 calc(50% - 20px); 
+    flex: 1 1 calc(50% - 25px); 
     box-sizing: border-box; 
     margin-bottom: 20px; 
     color: rgba(32, 34, 41, 0.8);
     display: flex;
     align-items: center;
-
   }
   .text-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 50%;
   }
 .text {
     font-size: 24px;
@@ -102,12 +108,39 @@
 }
 .explore {
     background-color: #202229;
-    padding: 15px;
     border: 1px solid #F0F0F0;
     border-radius: 30px;
     cursor: pointer;
+    width: 74px;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .explore span {
     font-size: 22px;
     color: rgba(32, 34, 41, 1);
+}
+
+@media only screen and (max-width: 1024px) and (min-height: 600px)  {
+    .talent-container {
+        gap: 30px;
+    }
+    .it-container, .design-container {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+    .text-container, .it-icons {
+        width: 100%;
+        box-sizing: border-box;
+        gap: 10px;
+    }
+    .it-subtexts p {
+        flex: 1;
+        margin-bottom: 10px;
+    }
+    .find-talent-container {
+        padding: 150px 40px;
+    }
 }

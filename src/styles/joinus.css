@@ -49,7 +49,7 @@
     height: 600px; 
     position: absolute;
     top: 60%; 
-    right: -150px;
+    right: -200px;
     transform: translate(-50%, -50%);
 }
 .content {
@@ -57,4 +57,13 @@
 }
 .build {
     top: 50%;
+}
+
+@media only screen and (max-width: 1024px) and (min-height: 800px)  {
+    .developers, .content, .build {
+        display: none;
+    }
+    .joinus-main {
+        padding: 10px 50px;
+    }
 }

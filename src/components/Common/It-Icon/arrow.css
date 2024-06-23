@@ -1,0 +1,12 @@
+.con {
+    background-color: #F6F6F6;
+    width: 96px;
+    height: 96px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.arrow-img {
+    transform: rotate(180deg); 
+}

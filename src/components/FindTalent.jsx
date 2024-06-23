@@ -4,6 +4,8 @@ import { ReactComponent as Skills } from '../assets/icons/ft-skills.svg';
 import { ReactComponent as SubCategory} from '../assets/icons/ft-subcategories.svg'
 import { ReactComponent as Profile } from '../assets/icons/ft-profiles.svg'
 import { ReactComponent as Vector } from '../assets/icons/vector.svg'
+import ArrowIcon from './Common/It-Icon/ArrowIcon';
+import Icon from './Common/Design-Icon/Icon'
 
 function FindTalent() {
       const items = [
@@ -12,7 +14,6 @@ function FindTalent() {
         { src: require('../assets/images/image 244.png'), text: 'Data Scientist' },
         { src: require('../assets/images/image 247.png'), text: 'Webflow Developer' },
         { src: require('../assets/images/image 246.png'), text: 'Dot Net Developer' },
-        { src: require('../assets/images/Vector.png'), text: 'Icon 6' }
       ];
 
       const items2 = [
@@ -21,7 +22,6 @@ function FindTalent() {
         { src: require('../assets/images/image 24.png'), text: 'Illustration Artist' },
         { src: require('../assets/images/image 250.png'), text: 'Unreal Engine' },
         { src: require('../assets/images/image 251.png'), text: 'Cinema 4D' },
-        { src: require('../assets/images/Vector (1).png'), text: 'I' }
       ];
   return (
     <div className='find-talent-container'>
@@ -35,11 +35,10 @@ function FindTalent() {
                 Find Dev and IT professionals to scale your business.
             </h4>
             <div className="it-subtexts">
-                <p><Skills /> 989 skills</p>
-                <p><SubCategory /> 45 Sub-Categories</p>
-                <p><Profile /> 1011 Profiles</p>
+            <p> <Skills />  989 skills</p>
+            <p><SubCategory /> 45 Sub-Categories</p>
+            <p> <Profile /> 1011 Profiles</p>
             </div>
-
         </div>
         <div className='it-icons'>
             <h6>IT & Development</h6>
@@ -52,6 +51,7 @@ function FindTalent() {
                         <p className="icon-text">{item.text}</p>
                     </div>
                 ))}
+                <ArrowIcon />
             </div>
         </div>
         </div>
@@ -66,10 +66,10 @@ function FindTalent() {
                 <p><Profile /> 1011 Profiles</p>
             </div>
         </div>
-        <div className="icon-main">
         <div className='it-icons'>
             <h6>Design and Creative</h6>
             <div className='icon-board'>
+            <Icon />
                 {items2.map((item, index) => (
                     <div key={index} className="icon-wrapper">
                         <div className="icon-container">
@@ -79,7 +79,6 @@ function FindTalent() {
                     </div>
                 ))}
             </div>  
-        </div>
         </div>
         </div>
         <div className="extra">

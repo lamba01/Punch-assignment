@@ -6,7 +6,7 @@ import { ReactComponent as Eva } from '../assets/icons/evaluate.svg';
 import { ReactComponent as Three } from '../assets/icons/three.svg';
 import { ReactComponent as Build } from '../assets/icons/building.svg';
 import '../styles/joinus.css'
-// import eva from '../assets/images/Group 626351.png'
+
 import ForwardButton from './Common/Button/ForwardButton';
 
 function JoinUs() {
