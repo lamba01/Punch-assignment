@@ -90,6 +90,18 @@ footer {
     border-radius: 20px;
     margin: 0px 5px;
 }
+.rights {
+    display: flex;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px 0px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.privacy {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
 @media only screen and (max-width: 1024px) and (min-height: 800px)  {
     .footer-info {
         flex-direction: column;
@@ -114,7 +126,7 @@ footer {
         color: white;
     }
     .footer-info h1 {
-        font-size: 45px;
+        font-size: 32px;
     }
     .footer-div h3 {
         font-size: 28px;
@@ -122,6 +134,13 @@ footer {
     }
     .footer-container {
         grid-template-columns: repeat(3, 1fr);
+    }
+    .rights {
+        flex-direction: column;
+    }
+    .privacy {
+        flex-direction: column;
+        gap: 0;
     }
 }
 @media only screen and (max-width: 540px) {

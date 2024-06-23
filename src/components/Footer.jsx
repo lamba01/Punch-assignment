@@ -61,6 +61,13 @@ function Footer() {
                 </ul>
             </div>
         </div>
+        <div className='rights'>
+            <p>All rights reserved by Zwilt</p>
+            <div className='privacy'>
+                <span>Privacy Policy</span>
+                <span>Terms and Condition</span>
+            </div>
+        </div>
     </footer>
   )
 }
