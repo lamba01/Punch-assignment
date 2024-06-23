@@ -1,7 +1,6 @@
 .joinus-main {
     background: none;
     padding: 10px 70px;
-    /* text-align: center; */
 }
 .joinus-main  h2{
     margin: 0 auto;
@@ -59,11 +58,25 @@
     top: 50%;
 }
 
-@media only screen and (max-width: 1024px) and (min-height: 800px)  {
+@media only screen and (max-width: 1024px) and (min-height: 600px)  {
     .developers, .content, .build {
         display: none;
     }
     .joinus-main {
         padding: 10px 50px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .joinus-main  h2 {
+        font-size: 45px;
+    }
+    .joinus-main {
+        padding: 10px 20px;
+    }
+    .one-header, .two-header, .three-header {
+        font-size: 24px;
+    }
+    .one-paragraph, .two-paragraph, .three-paragraph {
+        margin: 5px 0 10px 0px;
     }
 }

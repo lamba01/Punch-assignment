@@ -115,13 +115,25 @@
   
   }
   
-  @media (max-width: 767px) {
-    .hero-header h1 {
-      font-size: 20px;
+  @media only screen and (max-width: 767px) {
+    .main-hero-container {
+      width: 95%;
     }
-  
     .grid-item {
       font-size: 14px;
+    }
+    .hero-header-text {
+      font-size: 45px;
+    }
+    .hero-paragraph {
+      font-size: 16px;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 10px;
+      margin-top: 20px;
+      color: #959595;
     }
   }
   

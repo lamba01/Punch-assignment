@@ -81,3 +81,26 @@ main {
         margin-top: 0;
     }
 }
+@media only screen and (max-width: 767px) {
+    main {
+        flex-direction: column;
+        gap: 20px;
+        min-height: 100vh;
+        padding: 0 40px;
+    }
+    .sub-container2, .sub-containers {
+        width: 100%;
+        margin-top: 0;
+    }
+    .article-header {
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .jason {
+        width: 30px;
+        height: 30px;
+    }
+    .groove {
+        height: 30px;
+    }
+}

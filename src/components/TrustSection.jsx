@@ -23,7 +23,7 @@ function TrustSection() {
       <p>
         With our comprehensive screening process, we hand-pick highly skilled candidates so you can onboard them in a matter of days.
       </p>
-      <div>
+      <div className='main-cont'>
         {steps.map((step) => (
           <div
             key={step.id}

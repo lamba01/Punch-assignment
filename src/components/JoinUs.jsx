@@ -34,7 +34,6 @@ function JoinUs() {
                 <button className='join-btn'><ForwardButton />Browse More</button>
             </div>
               <Eva className='content'/>          
-              {/* <img src={eva} className='content' alt="" /> */}
         </div>
         <div className='three'>
             <Three className='three-icon'/>

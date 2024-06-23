@@ -27,10 +27,12 @@
     font-size: 54px;
     font-weight: 700;
     margin-bottom: 10px;
+    text-align: center;
   }
   
   .carousel-text p {
     font-size: 22px;
+    text-align: center;
   }
   
   .carousel-slider {
@@ -53,5 +55,24 @@
     }
     .carousel-slider {
       width: 100%;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .carousel {
+      flex-direction: column;
+      padding: 100px 20px;
+      height: max-content;
+    }
+    .carousel-text {
+      width: 100%;
+    }
+    .carousel-slider {
+      width: 100%;
+    }
+    .carousel-text h1 {
+      font-size: 45px;
+    }
+    .carousel-text p {
+      font-size: 16px;
     }
   }

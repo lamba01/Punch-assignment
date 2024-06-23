@@ -144,3 +144,25 @@
         padding: 150px 40px;
     }
 }
+@media only screen and (max-width: 767px) {
+    .icon-board {
+        flex-wrap: wrap;
+    }
+    .find-talent-container {
+        clip-path: polygon(0 1%, 100% 0, 100% 100%, 0 100%); 
+        padding: 50px 20px;
+        margin-top: -65px;
+    }
+    .ft-header {
+        font-size: 45px;
+        width: 100%;
+    }
+    .it-subtexts p {
+        flex: none;
+        padding: 0 5px;
+    }
+    .extra {
+        justify-content: space-between;
+        gap: 20px;
+    }
+}

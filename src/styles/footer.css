@@ -98,3 +98,34 @@ footer {
         width: 100%;
     }
 }
+@media only screen and (max-width: 767px) {
+    .footer-info {
+        flex-direction: column;
+    }
+    .footer-info div {
+        width: 100%;
+    }
+    footer {
+        background-color: #202229;
+        height: fit-content;
+        margin-top: -40px;
+        padding: 50px 20px;
+        clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
+        color: white;
+    }
+    .footer-info h1 {
+        font-size: 45px;
+    }
+    .footer-div h3 {
+        font-size: 28px;
+        width: 90%;
+    }
+    .footer-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media only screen and (max-width: 540px) {
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
