@@ -86,7 +86,7 @@ main {
         flex-direction: column;
         gap: 20px;
         min-height: 100vh;
-        padding: 0 40px;
+        padding: 0 20px;
     }
     .sub-container2, .sub-containers {
         width: 100%;
@@ -102,5 +102,8 @@ main {
     }
     .groove {
         height: 30px;
+    }
+    .arrow-container {
+        margin-left: 0;
     }
 }

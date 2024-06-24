@@ -61,9 +61,9 @@ function FindTalent() {
                 Explore Creative individuals with a keen eye for detail.
             </h4>
             <div className="it-subtexts">
-                <p><Skills /> 989 skills</p>
-                <p><SubCategory /> 45 Sub-Categories</p>
-                <p><Profile /> 1011 Profiles</p>
+                <p><Skills  /> 989 skills</p>
+                <p><SubCategory  /> 45 Sub-Categories</p>
+                <p><Profile  /> 1011 Profiles</p>
             </div>
         </div>
         <div className='it-icons'>

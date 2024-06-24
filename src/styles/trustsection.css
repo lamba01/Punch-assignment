@@ -1,6 +1,9 @@
 .trust-container {
     padding: 150px;
 }
+.trust-container p {
+    margin-bottom: 20px;
+}
 .video-container {
     width: 57px;
     height: 57px;

@@ -79,4 +79,14 @@
     .one-paragraph, .two-paragraph, .three-paragraph {
         margin: 5px 0 10px 0px;
     }
+    .one-icon, .two-icon, .three-icon {
+        margin-top: -80px;
+        padding-right: 10px;
+    }
+}
+@media only screen and (max-width: 520px) {
+    .one-icon, .two-icon, .three-icon {
+        margin-top: -130px;
+        padding-right: 10px;
+    }
 }

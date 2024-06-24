@@ -16,7 +16,7 @@ function JoinUs() {
             Start your journey today.
         </h2>
         <div className='one'>
-            <One  className='one-icon'/>
+            <One  className='one-icon'/>     
             <div>
                 <h3 className='one-header'>Find your next star performer.</h3>
                 <p className='one-paragraph'>Explore the vast Zwilt marketplace 
